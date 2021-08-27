@@ -1,2 +1,7 @@
-#### URL
-[https://next-study-sigma.vercel.app/](https://next-study-sigma.vercel.app/)
+# Next.js study
+
+- Next.js
+- TypeScript
+- ESLint
+- Prettier
+- Tailwind CSS
