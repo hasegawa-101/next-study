@@ -2,17 +2,16 @@ import { VFC } from 'react';
 import { Layout, Head } from '@src/layouts';
 import { PageContext } from '@src/store';
 import { usePageReducer } from '@src/hooks';
-import Link from 'next/link';
+import Link from 'next/link'
 
 const Page: VFC = () => {
-  const currentPage = usePageReducer('1');
+  const currentPage = usePageReducer('0');
 
   return (
     <PageContext.Provider value={currentPage}>
       <Layout>
         <Head />
-        top page
-        <Link href="/template">templateへ</Link>
+        <Link href="/">トップへ</Link>
       </Layout>
     </PageContext.Provider>
   );
